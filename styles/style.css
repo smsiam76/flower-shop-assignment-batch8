@@ -5,4 +5,52 @@
 }
 body{
 	font-family: 'lato', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: rgba(39, 39, 39, 0.60);
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #272727;
+}
+.section-title{}
+.primary-btn{
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: #E55473;
+	padding: 20px 34px;
+	border: none;
+	border-radius: 8px;
+}
+/*
+section-title
+section-subtitle
+primary-btn
+*/
+
+/*	banner css	*/
+.header-section{
+	background-color: #E554731A;
+}
+.banner-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0 0;
+
+}
+.banner-text{}
+.banner-title{
+	font-size: 80px;
+	font-weight: 800;
+	line-height: normal;
+	margin-bottom: 32px;
+}
+.banner-description{
+	width: 634px;
+	margin-bottom: 32px;
+}
+.banner-img img{
+	width: 420px;
 }
