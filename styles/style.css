@@ -103,3 +103,21 @@ primary-btn
 	font-weight: 700;
 	text-decoration: underline;
 }
+
+/* hot deal css */
+.deal-section{
+	padding: 50px 0;
+}
+.deal-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.deal-text{
+	text-align: center;
+}
+.section-title span{
+	color: #E55473;
+}
