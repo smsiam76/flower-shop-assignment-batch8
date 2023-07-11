@@ -49,6 +49,8 @@ primary-btn
 	justify-content: space-around;
 	align-items: center;
 	padding: 50px 0 0;
+	width: 85%;
+	margin: 0 auto;
 
 }
 .banner-title{
@@ -68,6 +70,10 @@ primary-btn
 /*	featured css	*/
 .featured-section{
 	padding: 100px 0 50px;
+}
+.featured-container{
+	width: 85%;
+	margin: 0 auto;
 }
 .featured-flower{
 	display: flex;
@@ -112,7 +118,7 @@ primary-btn
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 80%;
+	width: 75%;
 	margin: 0 auto;
 }
 .deal-text{
@@ -124,6 +130,10 @@ primary-btn
 /*	instagram area css	*/
 .instagram-section{
 	padding: 50px 0;
+}
+.instagram-container{
+	width: 85%;
+	margin: 0 auto;
 }
 .instagram-box{
 	display: flex;
