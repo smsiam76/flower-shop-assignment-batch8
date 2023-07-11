@@ -121,3 +121,18 @@ primary-btn
 .section-title span{
 	color: #E55473;
 }
+/*	instagram area css	*/
+.instagram-section{
+	padding: 50px 0;
+}
+.instagram-box{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.instagram-container p{
+	margin-bottom: 40px;
+}
+.instagram-box img{
+	width: 250px;
+}
