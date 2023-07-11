@@ -31,14 +31,16 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 	background-color: #E55473;
 	padding: 20px 34px;
-	border: none;
+	border: 1px solid #E55473;
 	border-radius: 8px;
+	cursor: pointer;
+	transition: .1s;
 }
-/*
-section-title
-section-subtitle
-primary-btn
-*/
+.primary-btn:hover{
+	color: #E55473;
+	background-color: #E554731A;
+	border: 1px solid #E55473;
+}
 
 /*	banner css	*/
 .header-section{
@@ -51,7 +53,6 @@ primary-btn
 	padding: 50px 0 0;
 	width: 85%;
 	margin: 0 auto;
-
 }
 .banner-title{
 	font-size: 80px;
@@ -89,6 +90,9 @@ primary-btn
 	justify-content: center;
 	padding: 80px 40px 0;
 	margin-bottom: 30px;
+	cursor: pointer;
+	border: 2px solid #fff;
+	transition: .1s;
 }
 .flower-box1{
 	background-color: #A7216226;
@@ -99,6 +103,15 @@ primary-btn
 .flower-box3{
 	background-color: #477D1126;
 }
+.flower-box1:hover{
+	border: 2px solid #E55473;
+}
+.flower-box2:hover{
+	border: 2px solid #0597A0;
+}
+.flower-box3:hover{
+	border: 2px solid #477D11;
+}
 .featured-box img{
 	width: 240px;
 	height: 260px;
@@ -108,9 +121,34 @@ primary-btn
 	font-size: 24px;
 	font-weight: 700;
 	text-decoration: underline;
+	cursor: pointer;
+	transition: .1s;
+}
+.featured-box h5:hover{
+	text-decoration: none;
+	color: #E55473;
 }
 
-/* hot deal css */
+/*	service area css	*/
+.service-section{
+	padding: 50px 0;
+}
+.service-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 75%;
+	margin: 0 auto;
+}
+.service-box{
+	text-align: center;
+}
+.service-box h5{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/*	hot deal css	*/
 .deal-section{
 	padding: 50px 0;
 }
@@ -126,7 +164,8 @@ primary-btn
 }
 .section-title span{
 	color: #E55473;
-}
+} 
+
 /*	instagram area css	*/
 .instagram-section{
 	padding: 50px 0;
@@ -139,6 +178,14 @@ primary-btn
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	cursor: pointer;
+}
+.instagram-box img{
+	border: 2px solid #fff;
+	transition: .1s;
+}
+.instagram-box img:hover{
+	border:2px solid #E55473;
 }
 .instagram-container p{
 	margin-bottom: 40px;
@@ -147,7 +194,52 @@ primary-btn
 	width: 250px;
 }
 
-/*	subscribe area css*/
+/*	reviews area css	*/
+.reviews-section{
+	padding: 50px 0;
+	background-color: #E554731A;
+}
+.reviews-container{
+	width: 85%;
+	margin: 0 auto;
+}
+.reviews-center{
+	margin-top: 60px;
+}
+.reviews-box{
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	margin-bottom: 40px;
+}
+.reviews-box img{
+	width: 150px;
+	cursor: pointer;
+}
+.revuew-name{
+	font-size: 22px;
+}
+.review-icon i{
+	color: #ff9b07;
+	margin-right: 3px;
+}
+#review-icon-color{
+	color: rgba(39,39,39,.6);
+}
+.review-description{
+	width: 694px;
+	font-style: oblique;
+	padding: 0 15px;
+	text-align: justify;
+	line-height: 22px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid rgba(39,39,39,.40);
+}
+.review-btn{
+	text-align: center;
+}
+
+/*	subscribe area css	*/
 .subs-section{
 	padding: 50px 0 100px;
 }
@@ -174,7 +266,11 @@ primary-btn
 	border: none;
 	background-color: #fff;
 }
+.subs-form input[type='email']:focus{
+	outline: 1px solid #E55473;
+	color: #E55473;
 
+}
 /*	footer area css*/
 .footer-section{
 	background-color: #111010;
@@ -189,4 +285,12 @@ primary-btn
 }
 .footer-reserved{
 	color: #FFFFFF66;
+}
+.footer-reserved a{
+	text-decoration: none;
+	color: #FFFFFF66;
+	transition: .3s;
+}
+.footer-reserved a:hover{
+	color: #E55473;
 }
