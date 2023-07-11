@@ -164,3 +164,19 @@ primary-btn
 	border: none;
 	background-color: #fff;
 }
+
+/*	footer area css*/
+.footer-section{
+	background-color: #111010;
+	padding: 100px 0;
+}
+.footer-container {
+	color: #FFFFFFE5;
+	text-align: center;
+}
+.footer-container h2{
+	color: #fff;
+}
+.footer-reserved{
+	color: #FFFFFF66;
+}
